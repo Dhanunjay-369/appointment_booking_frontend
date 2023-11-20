@@ -1,0 +1,76 @@
+.contact-wrapper{
+    height:fit-content;
+    min-height:80vh;
+    /* max-height: 100vh; */
+    width:cover;
+    border:1px solid red;
+    display: flex;
+    /* background:skyblue; */
+    /* background:url('./images/4234.jpg') no-repeat; */
+    /* background-size:cover;
+    background-position: right;  */
+    /* color:#fff; */
+}
+.contact-page-image{
+    height:fit-content;
+    width:fit-content;
+    border:1px solid black;
+}
+.contact-wrapper .contact-content{
+    height:fit-content;
+    /* min-height:99vh; */
+    width:fit-content;
+    border:1px solid green;
+    display:block;
+    justify-content: space-evenly;
+    backdrop-filter: blur;
+    background: yellowgreen;
+}
+.contact-content .contact-message{
+    height:fit-content;
+    width:fit-content;
+    border:1px solid green;
+    display:block;
+    backdrop-filter:blur;
+    
+}
+.messenger-name-box,.messenger-email-box,.messenger-message-box{
+    height:fit-content;
+    width:fit-content;
+    min-width:300px;
+    /* border:1px solid yellow; */
+    display:flex;
+    justify-content: space-between;
+}
+/* .messenger-name-label{
+    border:1px solid black;
+
+} */
+.submit-btn-outerbox{
+    display:flex;
+}
+.submit-btn-outerbox button{
+    border-radius:5px;
+}
+table,tr,td{
+    border-collapse:collapse;
+}
+
+.contact-info{
+    height:fit-content;
+    width:fit-content;
+    max-width:400px;
+    border:1px solid green;
+    backdrop-filter:blur;
+}
+
+.messenger-name-box,.messenger-email-box,.messenger-message-box{
+    font-size:14px;
+    font-weight:550;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.hospital-label,.email-label,.mobile-number-label,.address-label,.website-label{
+    font-weight:600;
+    font-family:'Times New Roman', Times, serif;
+}

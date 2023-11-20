@@ -1,0 +1,39 @@
+    /* body{
+    display:flex;
+    justify-content:center;
+    align-items:center; 
+} */
+.popup{
+    display:block;
+}
+.popup,.doctor-details,.image,.name-qualification-field,.name,.qualification,.field,.hospital-name,
+.calender,.calender .title,.time-slots,.time-slots .title,.confirm-button{
+    height:fit-content;
+    width:fit-content;
+}
+.popup,.image,.name-qualification-field{
+    border:1px solid black;
+}
+h4{
+    font-family:Arial;
+}
+.doctor-details{
+    display:flex;
+}
+.calender .dates{
+    display:flex;
+}
+.calender .dates button{
+    max-height:100px;
+}
+.time-slots .timings{
+    display:flex;
+} 
+.confirm-button{
+    height:fit-content;
+    width:99%;
+    /* border:1px solid black; */
+}
+.confirm-button button{
+    display:flex;
+}

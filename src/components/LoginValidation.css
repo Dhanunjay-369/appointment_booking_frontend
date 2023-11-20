@@ -1,0 +1,18 @@
+.login-validation{
+    height:fit-content;
+    min-height:100vh;
+    width:cover;
+    display:flex;
+    border:1px solid green;
+}
+.login-validation-form{
+    height:fit-content;
+    width:fit-content;
+    display:block;
+    border:1px solid black;
+    border-radius:10px;
+}
+.mobile-number{
+    height:fit-content;
+    width:fit-content;
+}

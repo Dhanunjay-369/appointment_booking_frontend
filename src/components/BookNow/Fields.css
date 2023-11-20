@@ -1,0 +1,105 @@
+/* *{
+    margin:0;
+    border:0;
+    box-sizing:border-box;
+    font-family:sans-serif;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items:center;   
+    min-height:100vh;
+    background:wheat;
+} */
+/* body{
+    justify-content: center;
+    align-items:center; 
+} */
+.fields-wrapper{
+    height:fit-content;
+    width:cover;
+    align-items:center; 
+    justify-content: center;
+    background:transparent;
+    border:2px solid yellow;
+    margin:2px;
+    display:block;
+}
+.fields-wrapper .fields-content{
+    height:fit-content;
+    width:fit-content;
+    display:block;
+    /* justify-content: center;
+    align-items:center;   */
+    /* background:transparent; */
+    border:2px solid black;
+    margin:2px;
+}
+.fields-content .fields-box{
+    height:fit-content;
+    width:fit-content;
+    /* background:transparent; */
+    border:2px solid black;
+    margin:2px;
+}
+/* .fields-box .fields-table{
+    background:teal;
+} */
+.fields-box .fields-title{
+    height:fit-content;
+    width:fit-content;
+    border:2px solid black;
+    margin:2px;
+    /* background:tan; */
+}
+.fields-box .fields-table{
+    height:fit-content;
+    width:fit-content;
+    border:2px solid black;
+    margin:2px;
+}
+.fields-table table{
+    border-collapse:collapse;
+}
+.fields-table table,tr,td{
+    border:1px solid black;
+}
+.fields-table td{
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+}
+.fields-table .img{
+    height:fit-content;
+    width:fit-content;
+    border:2px solid black;
+    justify-content:center;
+    align-items:center;
+    margin:5px;
+    padding:5px; 
+}
+.fields-table .img img{
+    height:192px;
+    width:192px;
+}
+.fields-table .img img:hover{
+    cursor:pointer;
+    transform:scale(1.02);
+    transition:transform(0.3s);
+}
+.fields-table .field-name{
+    height:fit-content;
+    width:fit-content;
+    border:1px solid black;
+    margin:2px 20% 2px 20%;
+    padding:0.5px;
+    font-size:18px;
+    font-weight:500;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.fields-table .field-name .field-name:hover{
+    font-weight:650;
+    cursor:pointer;
+    transform:scale(1.02);
+    transition:transform(0.3s);
+}

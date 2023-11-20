@@ -1,0 +1,88 @@
+.login-body{
+    height:fit-content;
+    min-height:100vh;
+    width:cover;
+    border:1px solid green;
+    display:flex;
+    background:url('./images/login_bg.jpg') no-repeat;
+    background-size:cover;
+    background-position:center;
+    color:#ddd;
+    font-family: 'Times New Roman', Times, serif;
+}
+.login-wrapper{
+    /* height:fit-content; */
+    width:fit-content;
+    border:1px solid blue;
+    display:block;
+    background:transparent;
+    border:2px solid rgba(255,255,255,.3);
+    border-radius:10px;
+    backdrop-filter:blur;
+}
+.login-title{
+    height:fit-content;
+    width:max-width;
+    /* border:1px solid black; */
+}
+.login-form{
+    height:fit-content;
+    width:max-width;
+    /* border:1px solid black; */
+}
+.login-form .login-name,.login-password{
+    height:fit-content;
+    width:cover;
+    /* border:1px solid black; */
+    display:flex;
+    /* max-width:400px; */
+}   
+.login-name, i{
+    margin-left:-50px;
+}
+.login-name input{
+    width:max-width;
+    border:1px solid rgba(255,255,255,.3);
+    border-radius:15px;
+    font-size:20px;
+}
+.login-name input::placeholder{
+    color:#ccc;
+    font-size:20px;
+}
+.login-password i{
+    margin-left:-50px;
+}
+.login-password input{
+    width:max-width;
+    border:1px solid rgba(255,255,255,.3);
+    border-radius:15px;
+    font-size:20px;
+}
+.login-password input::placeholder{
+    color:#ccc;
+    font-size:20px;
+}
+.login-form button{
+    display:block;
+    width: 100%;
+    max-width:320px;
+    background:#ddd; 
+    font-size:22px;   
+    color:gray;
+    font-family: 'Times New Roman', Times, serif;
+}
+.login-form button:hover{
+    text-decoration: underline;
+}
+.user-sign-up{
+    height:fit-content;
+    width:max-width;
+    font-size:20px;
+}
+.user-sign-up a{
+    text-decoration: none;
+}
+.user-sign-up a:hover{
+    text-decoration:underline;
+}

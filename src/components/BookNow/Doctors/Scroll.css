@@ -1,0 +1,39 @@
+.field-title{
+    margin:1px solid black;
+}
+.fields-list{
+    height:fit-content;
+    width:fit-content;
+    max-width:680px;
+    border:1px solid black;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x:scroll; 
+    /* scrollbar:hide; */
+    /* flex-direction: row; */
+}
+button{
+    height:fit-content;
+    width:fit-content;
+    text-decoration: none;
+}
+/* .fields-scroll-bar{
+    height:fit-content;
+    width:max-width;
+    border:1px solid black;
+    border-radius:20px;
+    display:flex;
+    justify-content:space-between;
+    overflow-x: scroll;
+}
+.fields-scroll-bar .field{
+    height:fit-content;
+    width:fit-content;
+    border:1px solid black;
+    border-radius:10px;
+    text-align: center;
+}
+.field:hover{
+    cursor:pointer;
+} */

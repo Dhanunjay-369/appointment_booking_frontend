@@ -1,0 +1,52 @@
+/* *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:sans-serif;
+}
+body{
+    display:block;
+    text-align:center;
+} */
+.Guide-wrapper{
+    height:fit-content;
+    min-height:80vh;
+    width:cover;
+    border:1px solid black;
+    display:flex;
+}
+.steps-list{
+    height:fit-content;
+    width:fit-content;
+    border:1px solid black;
+    display:block;
+    background:skyblue;
+}
+.step1,.step2,.step2_1,.step2_2,.step3,.step4,.step5,.step6,.step7,.step8{
+    height:fit-content;
+    width:fit-content;
+    border:2px solid yellow;
+    margin:5px;
+    padding:10px;
+} 
+.step1_content,.step2_content,.step2_1_content,.step2_2_content
+,.step3_content,.step4_content,.step5_content,.step6_content,.step7_content,.step8_content{
+    height:fit-content;
+    width:fit-content;
+    border:1px solid greenyellow;
+    display:flex;
+}
+.step1_img,.step2_img,.step2_1_img,.step2_2_img,.step3_img,.step4_img,.step5_img,.step6_img,.step7_img,.step8_img{
+    height:fit-content;
+    width:fit-content;
+    border:1px solid brown;
+    margin:3px;
+    padding:3px;
+}
+.step1_text,.step2_text,.step2_1_text,.step2_2_text,.step3_text,.step4_text,.step5_text,.step6_text,.step7_text,.step8_text{
+    height:fit-content;
+    width:fit-content;
+    border:1px solid blueviolet;
+    margin:3px;
+    padding:3px;
+}

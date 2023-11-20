@@ -1,0 +1,106 @@
+.home-wrapper{
+    height:fit-content;
+    width:100%;
+    border:1px solid black;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    margin:1px;
+    padding:auto;
+}
+.home-content{
+    height:fit-content;
+    min-height:80vh;
+    width:99%;
+    border:1px solid black;
+    margin:5px;
+    padding:1px;
+    display:flex;
+    background:url('./images/home_bg_1.jpg') no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.home-quote{
+    height:fit-content;
+    width:fit-content;
+    /* border:1px solid black; */
+    background:transparent;
+    /* border:1px solid rgba(255,255,255,.2); */
+    backdrop-filter:blur;
+    margin:100px 100px 1px 240px;
+    padding:1px;
+}
+.home-quote .title{
+    height:fit-content;
+    width:fit-content;
+    border:1px solid black;
+    /* background:; */
+    margin:10px 10px 10px 40px;
+    border-radius:3px;
+    padding:10px 3px;
+    transform:rotate(2deg);
+}
+/* .title:hover{
+    transform:scale(0.4);
+    transition:transform(0.3s);
+    /* transform:rotate(-0.6deg); 
+} */
+.home-quote .title h2{
+    font-size:24px;
+    font-weight:400;
+    font-family:cursive;
+    text-align:center;
+}
+.home-quote .title-tag-line{
+    height:fit-content;
+    width:fit-content;
+    border:1px solid black;
+    border-radius:3px;
+    margin:10px 5px 10px 60px;
+    padding:10px 0px 10px 10px;
+    text-align:center;
+    transform:rotate(1.6deg);
+}
+.title-tag-line .bleed-quote{
+    font-size:16px;
+}
+.home-quote .booking-suggestion{
+    height:fit-content;
+    width:fit-content;
+    border:1px solid black;
+    border-radius:3px;
+    margin:10px 10px 10px 40px;
+    padding:10px;
+    transform:rotate(1.4deg);
+}
+.home-quote .btn-outer-box{
+    height:fit-content;
+    width:fit-content;
+    border:1px solid black;
+    border-radius:5px;
+    margin:2px 2px 2px 100px;
+    transform:rotate(1.2deg);
+}
+.home-quote .btn-inner-box{
+    height:fit-content;
+    width:fit-content;
+    border:1px solid black;
+    border-radius:5px;
+    margin:2px;
+    padding:7px;
+}
+.home-quote .btn-inner-box::hover{
+    cursor:pointer;
+}
+.btn-inner-box .app-btn{
+    border:none;
+    font-size:24px;
+    font-family:cursive;
+    background:none;
+}
+.btn-inner-box .app-btn:hover{
+    cursor:pointer;
+}
+/* .app-btn Link{
+    color:#fff;
+} */

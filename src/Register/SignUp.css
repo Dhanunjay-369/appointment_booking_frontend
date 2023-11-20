@@ -1,0 +1,47 @@
+.signup-wrapper{
+    height:fit-content;
+    min-height:100vh;
+    width:cover;
+    display:flex;
+    border:2px solid green;
+
+}
+.signup-wrapper .signup-form{
+    width:420px;
+    display:block;
+    border:2px solid black;
+    background: maroon;
+    color:#fff;
+    border-radius:10px;
+    padding:30px 40px;
+}
+.signup-wrapper .signup-form h4{
+    font-size:20px;
+    text-align:center;
+}
+.signup-wrapper .signup-form .field-box{
+    width:max-width;
+    height:fit-content;
+}
+.signup-form .field-box label{
+    font-size:18px;
+}
+.signup-form .input-box{
+    height:fit-content;
+    width:max-width;
+    display:flex;
+}
+.signup-form .input-box input{
+    width:max-width;
+    border-radius: 15px;
+}
+.signup-form .input-box input::placeholder{
+    font-size:16px;
+}
+.signup-wrapper button{
+    display:block;
+}
+.signup-wrapper button:hover{
+    transform:scale(1.1);
+    text-decoration: underline;
+}

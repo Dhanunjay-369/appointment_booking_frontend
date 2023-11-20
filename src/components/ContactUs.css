@@ -1,0 +1,67 @@
+.wrapper{
+    height:fit-content;
+    width:99.5%;
+    border:1px solid red;
+    padding:5px;
+    display:flex;
+}
+.content{
+    height:fit-content;
+    width:fit-content;
+    border:1px solid green;
+    margin:2px;
+    padding:4px;
+    display:flex;
+}
+.message{
+    height:fit-content;
+    width:fit-content;
+    border:1px solid blue;
+    padding:3px;
+}
+.message_rows{
+    display:inline-flex;
+}
+.messenger_icon,.messenger_email_icon,.messenger_message_icon{
+    height:fit-content;
+    width:fit-content;
+    border:1px solid black;
+    margin:0.5px;
+    padding:0.5px;
+}
+.messenger_name,.messenger_email,.messenger_message{
+    height:fit-content;
+    width:fit-content;
+    border:1px solid black;
+    margin:0.5px;
+    padding:0.5px;
+}
+.contact_info{
+    height:fit-content;
+    width:fit-content;
+    border:1px solid blue;
+    padding:5px;
+}
+form{
+    border:1px solid black;
+}
+table{
+    border-collapse:collapse;
+}
+table,tr,td{
+    border:1px solid black;
+}
+.email_icon,.phone_icon,.address_icon,.website_icon{
+    height:fit-content;
+    width:fit-content;
+    border:1px solid black;
+    margin:1px;
+    padding:1px;
+}
+.email,phone,address,website{
+    height:fit-content;
+    width:fit-content;
+    border:1px solid black;
+    margin:1px;
+    padding:1px;
+}

@@ -1,0 +1,39 @@
+.booking-page{
+    height:fit-content;
+    min-height:100vh;
+    width:cover;
+    border:1px solid green;
+    display:flex;
+    /* background:wheat; */
+    color:saddlebrown;
+}
+.booking-page .booking-list{
+    height:fit-content;
+    min-height:100vh;
+    width:100%;
+    display: block;
+    border:1px solid red;
+}
+.booking-page .booking-details{
+    height:fit-content;
+    width:fit-content;
+    min-width:790px;
+    max-width:800px;
+    border:1px solid black;
+    border-radius:5px;
+    display:block;
+    background:wheat;
+}
+.booking-page .booking-details .patient-name,.doctor-slot-details,.doctor,.doctor-name,.doctor-qual,.doctor-field,.date-time,.booking-date,.booking-time-slot{
+    height:fit-content;
+    width:max-width;
+    /* border:1px solid black; */
+}
+.booking-page .booking-details .doctor{
+    display: flex;
+    justify-content: space-between;
+}
+.booking-page .booking-details .date-time{
+    display:flex;
+    justify-content: space-between;
+}

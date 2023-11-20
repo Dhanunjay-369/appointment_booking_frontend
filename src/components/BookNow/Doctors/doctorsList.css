@@ -1,0 +1,187 @@
+.doctor-wrapper{
+    height:fit-content;
+    width:cover;
+    border:1px solid black;
+    padding:1px;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+.doctor-content{
+    height:fit-content;
+    width:cover;
+    border:1px solid black;
+    padding:1px;
+}
+.doctor-content-holder{
+    height:fit-content;
+    width:fit-content;
+    border:1px solid black;
+    padding:10px;
+    background:maroon;
+}
+.doctor1,.doctor2,.doctor3{
+    height:fit-content;
+    /* min-width:500px; */
+    width:fit-content;
+    border:1px solid black;
+    margin:5px 1px 10px 5px;
+    padding:5px;
+    display:block;
+    font-size:19px;
+    background-color: olive;
+}
+.doctor{
+    height:fit-content;
+    width:fit-content;
+    border:1px solid black;
+    padding:1px;
+    display:flex;
+}
+.doctor-image{
+    height:fit-content;
+    width:fit-content;
+    border:1px solid black;
+    margin:2px 10px 2px 2px;
+    padding:1px;
+}
+.doctor-oral-specifications{
+    height:fit-content;
+    width:fit-content;
+    min-width:300px;
+    max-width:400px;
+    border:1px solid black;
+    padding:1px;
+    display:block;
+}
+.doctor-field{
+    height:fit-content;
+    width:fit-content;
+    border:1px solid black;
+    margin:5px 5px 10px 5px;
+    padding:1px;
+}
+.doctor-name{
+    height:fit-content;
+    width:fit-content;
+    border:1px solid black;
+    margin:5px;
+    padding:1px;
+}
+.doctor-qualification{
+    height:fit-content;
+    width:fit-content;
+    border:1px solid black;
+    margin:5px;
+    padding:1px;
+}
+.doctor-field{
+    height:fit-content;
+    width:fit-content;
+    border:1px solid black;
+    margin:5px;
+    padding:1px;
+    display:flex;
+}
+.doctor-exp{
+    height:fit-content;
+    width:fit-content;
+    border:1px solid black;
+    margin:5px;
+    padding:1px;
+}
+.doctor-lang{
+    height:fit-content;
+    width:fit-content;
+    border:1px solid black;
+    margin:5px;
+    padding:1px;
+}
+.doctor-visit{
+    height:fit-content;
+    width:max-width;
+    border:1px solid black;
+    margin:0.5px;
+    padding:1px;
+    display:flex;
+    justify-content: space-between;
+}
+.doctor-fee{
+    height:max-width;
+    width:max-width;
+    border:1px solid black;
+    text-align: center;
+    /* margin:5px;
+    padding:1px; */
+}
+.doctor-booking{
+    height:fit-content;
+    width:fit-content;
+    border:1px solid black;
+    border-radius:2px;
+    /* margin:5px;
+    padding:1px; */
+}
+.doctor-know-more{
+    height:fit-content;
+    width:fit-content;
+    border:1px solid black;
+    border-radius:2px;
+    /* margin:5px;
+    padding:1px; */
+}
+.showTimeSlots{
+    height:fit-content;
+    min-height:100vh;
+    width:cover;
+    border:1px solid green;
+    /* display:none; */
+}
+
+.popup{
+    display:block;
+    height:fit-content;
+    width:fit-content;
+    border:1px solid black;
+}
+.popup .doctor-details,.image,.name-qualification-field,.name,.qualification,.field,.hospital-name,
+.calender,.calender .title,.time-slots,.time-slots .title,.confirm-button{
+    height:fit-content;
+    width:fit-content;
+}
+.popup .image,.name-qualification-field{
+    border:1px solid black;
+}
+.popup h4{
+    font-family:Arial;
+}
+.popup .doctor-details{
+    display:flex;
+}
+.popup .calender .dates{
+    display:flex;
+}
+.popup .calender .dates button{
+    height:fit-content;
+    max-height:100px;
+    width:fit-content;
+    border:1px solid black;
+    background: yellowgreen;
+}
+.popup .calender .dates button .date,.day,.status{
+    height:fit-content;
+    width:fit-content;
+    /* border:1px solid black; */
+}
+.popup .time-slots .timings{
+    display:flex;
+} 
+.popup .time-slots .timings button{
+    background:gray;
+}
+.popup .confirm-button{
+    height:fit-content;
+    width:99%;
+    /* border:1px solid black; */
+}
+.popup .confirm-button button{
+    display:flex;
+}

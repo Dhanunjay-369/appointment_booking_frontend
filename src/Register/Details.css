@@ -1,0 +1,55 @@
+.details-wrapper{
+    display:flex;
+}
+.details-form{
+   width:fit-content;
+   border:5px solid green;
+   display:block;
+   background:purple; 
+   color:#fff;
+   border-radius:5px;
+} 
+.details-form h3{
+    font-size:24px;
+    text-align:center;
+}
+.details-form .full-name,.age,.gender,.job,.mobile-number,.address,.email{
+    height:fit-content;
+    width:max-width;
+    max-width:520px;  
+    display:flex;
+    background:transparent;
+    border:1px solid rgba(255,255,255,.1);
+    border-radius:2px;
+    margin:10px;
+}
+.details-form label{
+    height:fit-content;
+    width:fit-content;
+    font-size:16px;
+}
+
+.details-form input{
+    min-width:240px;
+    max-width:260px;
+    font-size:14.5px;
+    font-weight:500;
+    font-family:Arial;
+}
+.details-form input::placeholder{
+    font-size:14.5px;
+    font-weight:500;
+}
+.details-form textarea{
+    font-size:14.5px;
+    font-weight:500;
+}
+.details-form textarea::placeholder{
+    font-size:14.5px;
+    font-weight:500;
+}
+.details-form button{
+    display: block;
+    border:1px solid black;
+    background:green;
+}
