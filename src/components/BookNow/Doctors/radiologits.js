@@ -107,7 +107,7 @@ function Radiologist()
 
     const navigate=useNavigate();
     const addBooking=()=>{
-        axios.post("http://localhost:3001/booknow/confirm_booking",{
+        axios.post("http://localhost:3001/patientRoute/booknow/confirm_booking",{
             DoctorName:docName,DoctorQualification:docQual,DoctorField:docField,BookingDate:date,BookingTime:time
         })
         .then(result=>{console.log(result);
