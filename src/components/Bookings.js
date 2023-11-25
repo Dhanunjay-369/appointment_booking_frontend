@@ -25,7 +25,7 @@ function Bookings() {
     }, []);
 
     const deleteBooking=(id)=>{
-        axios.put("http://localhost:3001/delete/"+id)
+        axios.put("http://localhost:3001/patientRoute/delete/"+id)
         .then(result=>{
             if(result.data==="Success")
                 alert("Successfully Cancelled Appointment");
