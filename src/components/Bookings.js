@@ -6,12 +6,12 @@ function Bookings() {
     const [bookings, setBookings] = useState([]);
 
     useEffect(() => {
-        axios.get("http://localhost:3001/bookings")
+        axios.get("http://localhost:3001/patientRoute/bookings")
             .then(result => {
                 const currentUser = result.data.CurrentUser;
 
                 // Fetch bookings for the current user
-                axios.post("http://localhost:3001/bookings", { PatientName: currentUser })
+                axios.post("http://localhost:3001/patientRoute/bookings", { PatientName: currentUser })
                     .then(result => {
                         console.log(result.data);
                         if (Array.isArray(result.data)) {
