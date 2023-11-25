@@ -13,7 +13,7 @@ function Login()
 
     const handleLogin=(e)=>{
         e.preventDefault();
-        axios.post("http://localhost:3001/login",{UserName:userName,Password:userPassword})
+        axios.post("http://localhost:3001/patientRoute/login",{UserName:userName,Password:userPassword})
         .then(result=>{console.log(result);
         if(result.data==="Success")
         {
