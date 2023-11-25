@@ -15,7 +15,7 @@ function Details()
 
     const handleSubmit=(e)=>{
         e.preventDefault();
-        axios.post('http://localhost:3001/filldetails',{FullName:fullname,Age:age,Email:email,MobileNumber:mobileNumber})
+        axios.post('http://localhost:3001/patientRoute/filldetails',{FullName:fullname,Age:age,Email:email,MobileNumber:mobileNumber})
         .then(result=>{console.log(result);
             if(result.data==="Success")
                 alert("Details Saved Successfully");
