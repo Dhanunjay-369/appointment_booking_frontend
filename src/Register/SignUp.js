@@ -12,7 +12,7 @@ function SignUp()
 
     const handleSubmit=(e)=>{
         e.preventDefault();
-        axios.post("http://localhost:3001/signup",{Email:userEmail,UserName:userName,Password:userPassword})
+        axios.post("http://localhost:3001/patientRoute/signup",{Email:userEmail,UserName:userName,Password:userPassword})
         .then(result=>{
             if(result.data==="Success")
                 alert("User Registered Successfully");
